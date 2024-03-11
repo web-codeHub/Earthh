@@ -38,7 +38,6 @@
             backdrop-filter: blur(2px);
             height: 13vh;
             align-items: center;
-
         }
 
         li {
@@ -60,6 +59,20 @@
 
             100% {
                 opacity: 100%
+            }
+        }
+
+        /* Media queries for responsiveness */
+        @media only screen and (max-width: 768px) {
+            /* Adjustments for smaller screens */
+            nav {
+                height: auto;
+            }
+            li {
+                margin-bottom: 10px;
+            }
+            #video-content {
+                padding-top: 20px;
             }
         }
     </style>
